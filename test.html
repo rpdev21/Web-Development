@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students [
+    <!ELEMENT students (student+)>
+    <!ELEMENT student (name, rollNumber, department)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT rollNumber (#PCDATA)>
+    <!ELEMENT department (#PCDATA)>
+]>
+    <students>
+    <style>
+        student {
+            display: block;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        
+        name {
+            color: blue;
+            display: block;
+        }
+        rollNumber {
+            color: red;
+            display: block;
+        }
+        department {
+            color: green;
+            display: block;
+        }
+    </style>
+    
+    <student>
+        <name>Ram</name>
+        <rollNumber>1</rollNumber>
+        <department>Computer Science </department>
+    </student>
+    <student>
+        <name>Roy</name>
+        <rollNumber>2</rollNumber>
+        <department>Electrical Engineering</department>
+    </student>
+    <student>
+        <name>Sahil Sharma</name>
+        <rollNumber>3</rollNumber>
+        <department>Computer Science </department>
+    </student>
+</students>

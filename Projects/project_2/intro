@@ -1,0 +1,15 @@
+I am going to make a quiz app
+in which i will add different topics for quiz
+and user will be able to select the topic and then the quiz will start
+each question have a certain time limit after which the question will move to the next question
+the time limit can be set by the user
+
+Requirements =========>>>
+1. User can select the topic.
+2. User can set the time limit for each question.
+3. each time new questions will be generated at random. 
+4. User can see the score and time remaining for each question.
+5. user can see the rank on the leaderboard (on individual topics).
+6. user can see the overall rank on the leaderboard.
+7. user can see the questions and answers in the history section with time taken to answer each question.
+8. badges earned.
